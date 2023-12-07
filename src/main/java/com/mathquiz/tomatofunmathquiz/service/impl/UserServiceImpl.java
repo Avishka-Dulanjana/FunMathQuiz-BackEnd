@@ -45,17 +45,6 @@ public class UserServiceImpl implements UserService {
             throw new EntryDuplicationException("Already Added");
         }
 
-        //CustomerEntity customer = new CustomerEntity(
-//                customerDTO.getCustomerId(),
-//                customerDTO.getCustomerName(),
-//                customerDTO.getCustomerAddress(),
-//                customerDTO.getCustomerSalary(),
-//                customerDTO.getCustomerContactNumber(),
-//                customerDTO.getCustomerNic(),
-//                customerDTO.isActiveStatus()
-//        );
-//        customerRepo.save(customer);
-//        return customerDTO.getCustomerName();
     }
 
 }
